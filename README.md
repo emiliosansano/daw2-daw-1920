@@ -90,3 +90,17 @@ Ahora hay que modificar esta dirección añadiento la opción *ssh*:
 git remote set-url origin git+ssh://git@github.com/tu-usuario/daw2-daw-1920.git
 
 ```
+
+## Instalación de virtualbox
+- Primero instalamos las dependencias:
+```
+sudo apt install libcurl4 libqt5opengl5 libqt5printsupport5
+sudo apt install gcc make perl
+```
+
+- Descargamos virtualbox y el *extension pack* desde la página de descargas de www.virtualbox.org
+- Ejecutamos el archivo .deb descargado:
+```
+sudo dpkg -i virtualbox-6.0_6.0.12-133076~Ubuntu~bionic_amd64.deb
+```
+
